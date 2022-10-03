@@ -1,0 +1,16 @@
+.btn{
+  cursor: pointer;
+  float: right;
+  font-size: 1rem;
+  color: #0067DA;
+  text-decoration: none;
+}
+.timecon{
+  margin: 71px 0 40px 0;
+}
+
+@media (max-width: 767px) {
+  .timecon{
+      margin-top: 100px;
+  }
+}

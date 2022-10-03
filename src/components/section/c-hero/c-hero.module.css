@@ -1,0 +1,40 @@
+.scon{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 800px;
+}
+.con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+h1{
+    font-size: 3.5rem;
+}
+h1 span {
+    color: #8A8A8A;
+}
+.link{
+    text-decoration: none;
+    margin-top: 20px;
+    color: #0067DA;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 767px)
+{
+    .player{
+        height: 350px;
+        width: 350px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,19 @@
+.icon{
+    position: fixed;
+    background-color: hsla(0,0%,59.2%,.3);
+    border-radius: 360%;
+    top: 90%;
+    left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 65px;
+    cursor: pointer;
+    transition: .3s;
+    z-index: 3;
+}
+.icon svg{
+    height: 40px;
+    width: 40px;
+}

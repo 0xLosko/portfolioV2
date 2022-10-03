@@ -1,0 +1,35 @@
+.sCon{
+     padding: 30px 8%;
+}
+.con{ 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.con i{
+    margin: 20px 0;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.detailItem{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+p span{
+    padding-right: 5px;
+}
+.detailItem p{
+    width: 100%;
+}
+h2 {
+    margin: 0 0 10px;
+}
