@@ -24,10 +24,6 @@ contract BackOffice is Owner {
 
     mapping (uint8 => project) Projects;
 
-    constructor() {
-        owner = msg.sender;
-    }
-
     function addProject(string memory _name, string memory _date, uint8 _duration, bool _group, string memory _resp, string memory _techno, string memory _descr, string[] memory _imgUrl) external isOwner {
         Projects[id] = project(_name, _date, _duration, _group, _resp, _techno, _descr, _imgUrl);
         id++;
