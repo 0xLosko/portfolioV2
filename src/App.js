@@ -8,6 +8,8 @@ import ThemeContexteProvider from './hoc/darkmode/themeContext';
 import Modal from './components/contact/modal/modal';
 import Project from './container/project/projects';
 import PageNotFound from './hoc/404/PageNotFound';
+import Connect from './components/connect/connect';
+import Backoffice from './components/backoffice/backoffice';
 
 function App() {
   
@@ -18,6 +20,8 @@ function App() {
         <Route exact path={routes.PROJECTS} element={<AllProjects />}/>
         <Route exact path={routes.CONTACT} element={<Modal />}/>
         <Route exact path={routes.PROJECT + '/:id'} element={<Project />}/>
+        <Route exact path={routes.CONNECT} element = {<Connect />}/>
+        <Route exact path={routes.BACKOFFICE} element = {<Backoffice />}/>
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </ThemeContexteProvider>

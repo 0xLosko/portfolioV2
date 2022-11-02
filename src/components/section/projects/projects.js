@@ -23,7 +23,7 @@ const Projects = () => {
               </div>
                 
                 <div className={theme ? classes.sdivpre : classes.sdivpre + ' dark'}>
-                    <p>Mes projets rècents 👇</p>
+                    <p>Mes projets récents 👇</p>
                 </div>
             </div>
            
